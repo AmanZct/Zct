@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZCT — Zeta Cryptic Tribe</title>
+  <meta name="description" content="ZCT (Zeta Cryptic Tribe) — komunitas misterius yang berakar pada simbolisme gelap, eksklusif, dan penuh rahasia. Diciptakan oleh Aman.">
+  <meta name="keywords" content="ZCT, Zeta Cryptic Tribe, Aman, komunitas misterius, simbolisme gelap, lambang ZCT">
+  <meta name="author" content="Aman">
+
+  <!-- Open Graph / Social preview -->
+  <meta property="og:title" content="ZCT — Zeta Cryptic Tribe">
+  <meta property="og:description" content="ZCT (Zeta Cryptic Tribe) — komunitas misterius yang berakar pada simbolisme gelap, eksklusif, dan penuh rahasia. Diciptakan oleh Aman.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/zct-logo.png">
+  <meta property="og:url" content="https://example.com">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ZCT — Zeta Cryptic Tribe">
+  <meta name="twitter:description" content="Komunitas misterius dan eksklusif. Diciptakan oleh Aman.">
+  <meta name="twitter:image" content="assets/zct-logo.png">
+
+  <style>
+    :root{--bg:#0b0b0b;--muted:#bdbdbd;--accent:#ffffff;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--accent);-webkit-font-smoothing:antialiased}
+    .container{max-width:960px;margin:48px auto;padding:24px}
+    header{display:flex;gap:20px;align-items:center}
+    .logo{width:84px;height:84px;display:grid;place-items:center;border-radius:12px;background:linear-gradient(180deg,#111, #0b0b0b);box-shadow:0 6px 18px rgba(0,0,0,.6)}
+    .logo img{max-width:72px;max-height:72px}
+    h1{font-size:28px;margin:0;letter-spacing:2px}
+    p.lead{color:var(--muted);margin:6px 0 0}
+
+    main{display:grid;grid-template-columns:1fr;gap:28px;margin-top:28px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:20px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .muted{color:var(--muted);font-size:14px}
+
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    pre{white-space:pre-wrap;background:rgba(255,255,255,0.02);padding:12px;border-radius:8px;color:var(--muted);overflow:auto}
+
+    footer{margin-top:36px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;align-items:center}
+    a.btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:8px;color:var(--accent);text-decoration:none}
+
+    @media (max-width:760px){.two-col{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <img src="assets/zct-logo.png" alt="ZCT logo">
+      </div>
+      <div>
+        <h1>ZCT — Zeta Cryptic Tribe</h1>
+        <p class="lead">Sebuah identitas dan komunitas misterius yang berakar pada simbolisme gelap, eksklusif, dan penuh rahasia. Diciptakan oleh <strong>Aman</strong>.</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Tagline & Kutipan</h2>
+        <blockquote style="margin:12px 0;padding-left:14px;border-left:3px solid rgba(255,255,255,0.06);color:var(--accent)">
+          “<strong>ZCT — Zeta Cryptic Tribe.</strong> Sebuah tanda dari mereka yang berjalan dalam bayangan, terikat dalam rahasia, dan menyimpan kekuatan yang hanya diketahui oleh para terpilih.”
+        </blockquote>
+      </section>
+
+      <section class="card">
+        <h2>Definisi Ensiklopedis</h2>
+        <p><strong>ZCT (Zeta Cryptic Tribe)</strong> adalah sebuah identitas/komunitas yang berakar pada simbolisme gelap, penuh misteri, dan eksklusivitas. Istilah ini menekankan kekuatan tersembunyi, kebersamaan dalam rahasia, serta identitas yang hanya dipahami oleh mereka yang menjadi bagian di dalamnya. Istilah <strong>ZCT</strong> pertama kali diperkenalkan oleh <strong>Aman</strong>.</p>
+      </section>
+
+      <section class="card">
+        <h2>Logo Resmi</h2>
+        <p>Logo resmi ZCT: desain hitam-putih dengan huruf tegas 'ZCT' di bawah sebuah lambang geometris berbentuk mata dalam bingkai segitiga/berlapis, melambangkan misteri, pengawasan, dan simbolisme gelap. Teks 'Zeta Cryptic Tribe' berada di bagian bawah sebagai identitas lengkap komunitas.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="yr"></span> Zeta Cryptic Tribe — All rights reserved.</div>
+      <div class="muted">Created by Aman</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
